@@ -1,16 +1,34 @@
-# notes_todolist
+# மறவாதிரு - Productivity App
 
-A new Flutter project.
+**மறவாதிரு** is a Flutter-based productivity app designed to help users manage their tasks and notes efficiently. It features task prioritization, due dates, note-taking, theme switching, and persistent storage using SharedPreferences.
 
-## Getting Started
+# Features
+# Tasks
 
-This project is a starting point for a Flutter application.
+- Add, edit, and delete tasks.
+- Mark tasks as completed.
+- Assign task priority (Low, Medium, High).
+- Set due dates and view overdue tasks highlighted in red.
+- Sort tasks by:
+  - Completion status
+  - Priority
+  - Due Date
+  - Creation Date
+- Search tasks by title.
+- Bulk actions:
+  - Delete tasks by due date.
+  - Clear all tasks.
+- Deleted tasks are stored in a separate tab and can be permanently deleted.
 
-A few resources to get you started if this is your first Flutter project:
+# Notes
+- Add, edit, and delete notes.
+- Search notes by title or content.
+- Notes are persisted locally for offline access.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Theme
+- Switch between Light, Dark, or System theme.
+- Theme preference is saved locally.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Deleted Tasks
+- View recently deleted tasks.
+- Permanently delete tasks from the deleted tab.
